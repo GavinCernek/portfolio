@@ -14,11 +14,11 @@ const toolbar = () => (
                         <li>HOME</li>
                     </Link>
                     
-                    <Link to="/about">
+                    <Link to="/portfolio/about">
                         <li>ABOUT</li>
                     </Link>
                     
-                    <Link to="/contact">
+                    <Link to="/portfolio/contact">
                         <li>CONTACT</li>
                     </Link>
                 </ul>
