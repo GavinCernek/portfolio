@@ -1,0 +1,69 @@
+
+.project h1 {
+    font-weight: lighter;
+}
+
+.project-info {
+    padding: 0 0.5rem;
+}
+
+.project-info h3 {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0.5rem;
+}
+
+.project-image img {
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.project-image a {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    display: block;
+    margin: 2rem 3rem;
+    text-align: center;
+}
+
+.project-image a:hover {
+    color: #333;
+    background-color: lightgreen;
+}
+
+.project-technologies ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-technologies li {
+    padding: 0.5rem;
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .project {
+        display: inline-block;
+    }
+
+    .project h1 {
+        text-align: left;
+        margin-left: 5rem;
+    }
+
+    .project-image {
+        float: left;
+        margin-left: 5rem;
+    }
+
+    .project-info {
+        float: right;
+        width: 50%;
+        margin-right: 5rem;
+    }
+}

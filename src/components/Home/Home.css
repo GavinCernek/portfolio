@@ -1,0 +1,27 @@
+
+.home_background_img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.home_projects {
+    text-align: center;
+}
+
+.home_projects_header h1 {
+    border-bottom: 0.25rem rgb(77, 77, 77) ridge;
+    font-weight: 100;
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .home_background_img {
+        width: 100%;
+    }
+
+    .home_projects_header h1 {
+        text-align: left;
+        padding-left: 5rem;
+    }
+}

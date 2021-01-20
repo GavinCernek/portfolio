@@ -1,0 +1,17 @@
+
+.about_header {
+    width: 15rem;
+    margin: 5rem auto;
+    background-color: #333;
+    padding: 0.1rem 0rem 0.1rem;
+    color: white;
+    border-bottom: 0.5rem  rgb(160, 247, 90) solid;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .about_header {
+        width: 20rem;
+    }
+}

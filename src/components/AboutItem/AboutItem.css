@@ -1,0 +1,47 @@
+
+.about-item {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.about-item-header h1 {
+    border-bottom: 0.25rem rgb(77, 77, 77) ridge;
+    font-weight: 100;
+    text-align: center;
+}
+
+.about-item-image img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-item-text {
+    border: 0.25rem #333 solid;
+    padding: 0 0.5rem;
+    margin: 0 0.25rem;
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .about-item {
+        display: inline-block;
+    }
+
+    .about-item-header h1 {
+        text-align: left;
+        padding: 0 5rem;
+    }
+
+    .about-item-image {
+        float: left;
+        margin-left: 5rem;
+    }
+
+    .about-item-text {
+        float: right;
+        width: 50%;
+        vertical-align: middle;
+        margin: 8rem 2rem;
+    }
+}

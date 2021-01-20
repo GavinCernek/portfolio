@@ -1,0 +1,51 @@
+
+.contact {
+    padding-bottom: 2rem;
+}
+
+.contact-header {
+    width: 15rem;
+    margin: 5rem auto;
+    background-color: #333;
+    padding: 0.1rem 0rem 0.1rem;
+    color: white;
+    border-bottom: 0.5rem  rgb(160, 247, 90) solid;
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h1 {
+    font-weight: lighter;
+}
+
+.contact-info a {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+}
+
+.contact-info a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.github-link {
+    padding: 4rem;
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .contact-header {
+        width: 20rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .contact-info {
+        font-size: 1.5rem;
+    }
+}
