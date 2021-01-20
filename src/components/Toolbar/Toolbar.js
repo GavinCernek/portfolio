@@ -10,7 +10,7 @@ const toolbar = () => (
             <div className="spacer" />
             <div className="toolbar_navigation_items">
                 <ul>
-                    <Link to="/">
+                    <Link to="/portfolio">
                         <li>HOME</li>
                     </Link>
                     
