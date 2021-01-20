@@ -130,10 +130,11 @@ const Home = () => {
 
         <Project projectName={"Weatherly"} projectImage={weatherlyImage} projectURL={"https://github.com/GavinCernek/weatherly"} 
                   projectDescription={weatherlyDescription} projectDifficulties={weatherlyDifficulties} 
-                  projectSolutions={weatherlySolutions} projectTechnologies={weatherlyTechnologies}
+                  projectSolutions={weatherlySolutions} projectTechnologies={weatherlyTechnologies} isLive={true}
+                  liveLink={"https://gavincernek.github.io/weatherly/"}
         />
 
-        <Project projectName={"Block Buster"} projectImage={blockbusterImage} projectURL={"https://github.com/GavinCernek/blockbuster"} 
+        <Project projectName={"Block Buster"} projectImage={blockbusterImage} projectURL={"https://github.com/GavinCernek/block-buster"} 
                   projectDescription={blockbusterDescription} projectDifficulties={blockbusterDifficulties} 
                   projectSolutions={blockbusterSolutions} projectTechnologies={blockbusterTechnologies} 
         />

@@ -5,6 +5,14 @@ import "./Project.css";
 
 const Project = props => {
 
+    let liveButton;
+
+    if (props.isLive) {
+        liveButton = (
+            <a id="live-button" href={props.liveLink}>View Live Version</a>
+        );
+    };
+
     return (
         <div className="project">
             <h1>{props.projectName}</h1>
@@ -12,6 +20,7 @@ const Project = props => {
             <div className="project-image">
                 <img src={props.projectImage} alt="Project"/>
                 <a href={props.projectURL}>View Project in GitHub</a>
+                {liveButton}
             </div>
 
             <div className="project-info">

@@ -36,6 +36,11 @@
     background-color: lightgreen;
 }
 
+#live-button:hover {
+    background-color: rgba(241, 8, 54, 0.753);
+    color: white;
+}
+
 .project-technologies ul {
     list-style: none;
     padding: 0;
