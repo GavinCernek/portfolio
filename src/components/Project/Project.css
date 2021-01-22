@@ -64,6 +64,7 @@
     .project-image {
         float: left;
         margin-left: 5rem;
+        width: 30%;
     }
 
     .project-info {
