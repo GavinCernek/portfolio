@@ -125,7 +125,8 @@ const Home = () => {
 
         <Project projectName={"Spill It"} projectImage={spillItImage} projectURL={"https://github.com/GavinCernek/spill-it"} 
                   projectDescription={spillItDescription} projectDifficulties={spillItDifficulties} 
-                  projectSolutions={spillItSolutions} projectTechnologies={spillItTechnologies} 
+                  projectSolutions={spillItSolutions} projectTechnologies={spillItTechnologies} isLive={true}
+                  liveLink={"https://spill-it.herokuapp.com/"}
         />
 
         <Project projectName={"Weatherly"} projectImage={weatherlyImage} projectURL={"https://github.com/GavinCernek/weatherly"} 
